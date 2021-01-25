@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+
+import "./App.css";
+import Main from "./components/Grid/Main";
 
 const App = () => {
-    return (
-        <div>
-            <h1>App React</h1>
-        </div>
-    );
-}
+  return (
+    <div className="App">
+      <Main />
+    </div>
+  );
+};
 
 export default App;
