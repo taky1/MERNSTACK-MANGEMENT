@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import '../../App.css';
+import '../App.css';
 import Container from './Container';
 import Task from './Task';
 import Item from './Item';
-import MailIcon from '@material-ui/icons/Mail';
-import { render } from "@testing-library/react";
-import LineTo from 'react-lineto';
-import PopOver from "./PopOver";
+
 import Icon from '@material-ui/core/Icon';
 function Index() {
   const [client, setClient] = useState({});
@@ -17,10 +14,7 @@ function Index() {
     clone.id = id + 1515;
     original.parentNode.appendChild(clone);
 
-    /* var itm = document.getElementById("myList2").lastChild;
-     var cln = itm.cloneNode(true);
-     document.getElementById("myList1").appendChild(cln);*/
-
+    
   }
   const rendeer = () => {
     return (  <Task id='1' radius={15} color='red' className='task' draggable='true'  > star    </Task>

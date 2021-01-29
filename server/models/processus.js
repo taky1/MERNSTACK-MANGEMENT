@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const processuSchema = mongoose.Schema({
+const processusSchema = mongoose.Schema({
  titre : String,
  icone : String,
  couleur : String,
@@ -8,6 +8,6 @@ const processuSchema = mongoose.Schema({
  tache : [String],
 });
 
-const processus  = mongoose.model('processus', processuSchema);
+const processus  = mongoose.model('processus', processusSchema);
 
 export default processus;
