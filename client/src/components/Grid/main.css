@@ -21,3 +21,8 @@
 .h52 {
     color: #adee82;
 }
+.react-flow__node-input {
+    background: #fff;
+    border-color: transparent !important;
+    width: 52px;
+}

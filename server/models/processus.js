@@ -6,6 +6,10 @@ const processusSchema = mongoose.Schema({
  couleur : String,
  forme : String,
  tache : [String],
+ position:{
+     x:String,
+     y:String
+ }
 });
 
 const processus  = mongoose.model('processus', processusSchema);
